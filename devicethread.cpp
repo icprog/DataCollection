@@ -23,7 +23,7 @@ void DeviceThread::run()
             {
                 if(info.send)
                 {
-                    device->DataPacket()
+                    device->DataPacket();
                 }
             }
         }
